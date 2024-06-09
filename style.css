@@ -2,13 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Hanken Grotesk', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: block;
     height: auto;
     max-width: 100%;
     line-height: 1;
     margin:auto;
-    width: 100%
+    width: 100%;
+    background: red;
 }
 .carousel-item img{
     /* width: 90%;
@@ -44,6 +45,12 @@
 width: 100%;
 height: 100%;
 }
+.avatar {
+    vertical-align: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
 .offer_style{
     background: #d5c094;
     color:white;
